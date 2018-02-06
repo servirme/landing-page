@@ -1,0 +1,27 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "[Servir.me](https://github.com/MatheusVellone/servir.me) Landing Page -----------------",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf build && gulp",
+    "serve": "serve build -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusVellone/servir.me-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusVellone/servir.me-landing-page/issues"
+  },
+  "homepage": "https://github.com/MatheusVellone/servir.me-landing-page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-minify-inline": "^1.0.0",
+    "rimraf": "^2.6.2",
+    "serve": "^6.4.9"
+  }
+}
