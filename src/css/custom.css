@@ -45,7 +45,7 @@ button {
 
 .cta-green {
   color: #e0927d;
-  background: #192440;
+  background: #4a374f;
 }
 
 .cta-green:hover {
@@ -125,13 +125,13 @@ button {
 }
 
 #contact form {
-  color: #192440;
+  color: #4a374f;
 }
 
 #contact form input,
 #contact form textarea {
   background: transparent;
-  border: 1px solid #192440;
+  border: 1px solid #4a374f;
   color: #ffffff;
 }
 
@@ -150,7 +150,7 @@ button {
 }
 
 #copyright #social-media a i {
-  color: #192440;
+  color: #4a374f;
   font-size: 1.2rem;
   line-height: 40px;
 }
@@ -168,4 +168,10 @@ button {
   #banner h1 {
     font-size: 3.6rem;
   }
+}
+
+.featured-icons {
+  color: #4a374f;
+  font-size: 90px;
+  margin: 40px auto;
 }
